@@ -38,13 +38,13 @@
         </div>
         <div class="items-center lg:flex lg:flex-grow lg:justify-end lg:gap-x-10 scroll-smooth max-lg:hidden">
             <a href="#home"
-                class="text-base font-black leading-6  transition duration-300 ease-in-out delay-150 scroll-smooth hover:-translate-y-1 hover:scale-110 hover:text-orange-600":class="{'lg:hover:text-black':atTop}">Home</a>
+                class="text-base font-black leading-6  transition duration-300 ease-in-out delay-150 scroll-smooth hover:-translate-y-1 hover:scale-110 hover:text-black":class="{'lg:hover:text-black':atTop}">Home</a>
             <a href="#about"
-                class="text-base font-black leading-6  transition duration-300 ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-orange-600" :class="{'lg:hover:text-black':atTop}">About</a>
+                class="text-base font-black leading-6  transition duration-300 ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-black" :class="{'lg:hover:text-black':atTop}">About</a>
             <a href="#"
-                class="text-base font-black leading-6  transition duration-300 ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-orange-600":class="{'lg:hover:text-black':atTop}">Contact</a>
+                class="text-base font-black leading-6  transition duration-300 ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-black":class="{'lg:hover:text-black':atTop}">Contact</a>
             <a href="#"
-                class="rounded-full bg-orange-500 px-8 py-1.5 text-sm font-bold shadow-sm ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-white hover:text-orange-500":class="{'lg:bg-orange-500 lg:text-white lg:hover:bg-orange-600 lg:hover:text-black':atTop}">Make
+                class="rounded-full bg-orange-500 px-8 py-1.5 text-sm font-bold shadow-sm ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-orange-600 hover:text-black":class="{'lg:bg-orange-500 lg:text-white lg:hover:bg-orange-600 lg:hover:text-black':atTop}">Make
                 Project</a>
         </div>
     <!-- Mobile menu, show/hide based on menu open state. -->
