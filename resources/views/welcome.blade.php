@@ -26,8 +26,8 @@
     class="main-header fixed left-0 right-0 z-[111]"
     :class="{
         'shadow-lg': atTop,
-        'bg-orange-200 lg:bg-transparent text-white': !atTop,
-        'bg-orange-200 lg:bg-white text-orange-500': atTop,
+        'bg-orange-200 lg:bg-transparent text-white md:bg-transparent': !atTop,
+        'bg-orange-200 lg:bg-white text-orange-500 md:bg-transparent': atTop,
     }"
     @scroll.window="atTop = (window.pageYOffset < 50) ? false: true">
     <nav x-data="{navbarOpen: false}" class="relative flex items-center justify-between w-full p-2 lg:px-8" aria-label="Global">
@@ -52,9 +52,9 @@
     <!-- Background backdrop, show/hide based on slide-over state. -->
     <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700 z-50" x-on:click="navbarOpen = !navbarOpen">
         <span class="sr-only">Open Menu</span>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>          
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 72 72">
+            <path d="M56 48c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 48 54.798 48 56 48zM56 32c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 32 54.798 32 56 32zM56 16c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 16 54.798 16 56 16z"></path>
+            </svg>
     </button>
     <div class="fixed"></div>
     <div class="fixed inset-y-0 right-0 z-50 w-full px-6 py-6 overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 transition duration-200" :class="{'translate-x-full': !navbarOpen, 'translate-x-0': navbarOpen}">
