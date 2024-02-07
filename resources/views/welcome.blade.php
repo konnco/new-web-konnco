@@ -26,8 +26,9 @@
     class="main-header fixed left-0 right-0 z-[111]"
     :class="{
         'shadow-lg': atTop,
-        'bg-orange-200 lg:bg-transparent text-white md:bg-transparent': !atTop,
-        'bg-orange-200 lg:bg-white text-orange-500 md:bg-transparent': atTop,
+        'bg-orange-200 lg:bg-transparent text-white max-lg:bg-transparent': !atTop,
+        'bg-orange-200 lg:bg-white text-orange-500 max-lg:bg-transparent': atTop,
+
     }"
     @scroll.window="atTop = (window.pageYOffset < 50) ? false: true">
     <nav x-data="{navbarOpen: false}" class="relative flex items-center justify-between w-full p-2 lg:px-8" aria-label="Global">
@@ -117,33 +118,31 @@
         </div>
     </section>
 
-    <section id="about" class="">
-        <div class="inline-flex items-center justify-center bg-white Desktop1 w-96">
-            <div class="relative Intro w-96 h-96">
-                <div class="absolute top-0 left-0 Rectangle w-96 h-96"></div>
-                <div class="w-auto h-56 pb-8 left-[830px] top-[172px] absolute flex-col items-start gap-10 inline-flex">
-                    <div class="h-12 text-4xl font-bold leading-10 text-orange-500 Title">Hanya membuat yang
-                        berkualitas!</div>
-                    <span class="text-base font-normal leading-relaxed text-black w-97 Body">Secara konsisten kami
-                        mempelajari teknologi terbaik agar dapat terus berinovasi dan memberikan solusi terbaik untuk
-                        partner bisnis kami. Kami juga membantu komunitas teknologi di sekitar kami bertumbuh dengan
-                        berbagi ilmu dan pengalaman kami.</span>
-                </div>
-                <div class="w-96 h-80 left-[195px] top-[122.44px] absolute mt-12">
-                    <img src="{{ asset('assets/img/designer_2.svg') }}" alt="designer_2">
+    <section id="about" class="flex-auto md:flex-auto">
+        <div class="bg-white">
+            <div class="relative px-6 isolate pt-14 lg:px-8 ">
+                <img class="absolute h-96 w-96 left-32 inset-y-40 max-lg:hidden" src="{{ asset('assets/img/designer_2.svg') }}"
+                    alt="desginer">
+                <div class="container relative left-60 max-lg:left-0 max-w-2xl py-32 sm:py-48 lg:py-56">
+                    <div class="">
+                        <h1 class="text-4xl font-bold tracking-tight text-orange-500 sm:text-4xl">Hanya membuat yang
+                            berkualitas!</h1>
+                        <p class="mt-6 text-sm leading-8 text-gray-600">Secara konsisten kami
+                            mempelajari teknologi terbaik agar dapat terus berinovasi dan memberikan solusi terbaik untuk
+                            partner bisnis kami. Kami juga membantu komunitas teknologi di sekitar kami bertumbuh dengan
+                            berbagi ilmu dan pengalaman kami.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="relative h-0 bg-transparent LayananPage w-96">
-            <div class="w-96 h-96 left-[5px] top-0 relative">
-                <div class="absolute top-0 left-0 Mask w-96 h-96"></div>
-                <div class="Mask w-96 h-96 left-0 top-[4px] absolute"></div>
-                <div class="UndrawMobileLoginIkmv w-96 h-96 left-[800px] absolute mt-24 ml-36">
+            <div class="w-96 h-96 left-[5px] top-0 relative max-lg:hidden">
+                <div class="w-96 h-96 left-[800px] absolute mt-24 ml-36">
                     <img src="{{ asset('assets/img/designer_3.svg') }}" alt="designer_3">
                 </div>
-            </div>
-            <div
-                class="ElementCardInfoCardMediumIconTopLeft2LineTitleCopy2 w-64 h-36 left-[455px] top-[444px] absolute">
+        </div>
+            <div class="w-64 h-36 left-[455px] top-[444px] absolute">
                 <div class="Body w-64 h-24 left-0 top-[77px] absolute text-black text-sm font-normal leading-relaxed">
                     Bekerja dengan desainer terbaik. Kami memberikan desain yang unik, minimalis, dan memiliki
                     fungsional yang baik, dengan pengguna sebagai titik awal pembuatan desain</div>
@@ -178,7 +177,7 @@
         </div>
         </div>
 
-        <div class="absolute flex items-center w-96 h-14 left-[800px] mt-96">
+        <div class="absolute flex items-center w-96 h-14 left-[800px] mt-96 max-lg:hidden">
             <div class="relative flex-col items-center mt-72 w-96 h-14">
                 <img class="w-12 h-12 left-[-0px] top-[8.02px] absolute" src="{{ asset('assets/img/php.png') }}" />
                 <img class="w-12 h-12 left-[245.90px] top-[8.02px] absolute"
