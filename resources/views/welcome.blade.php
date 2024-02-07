@@ -93,7 +93,7 @@
     
     <section id="home" class="flex-auto md:flex-auto">
         <div class="bg-white">
-            <div class="relative px-6 isolate pt-14 lg:px-8">
+            <div class="relative isolate pt-14 max-lg:px-0">
                 <img class="absolute right-0 -z-50 -inset-y-24 md:absolute" src="{{ asset('assets/img/designer_1.svg') }}"
                     alt="desginer">
                 <div class="container max-w-2xl py-32 mx-24 sm:py-48 lg:py-56">
@@ -120,90 +120,87 @@
 
     <section id="about" class="flex-auto md:flex-auto">
         <div class="bg-white">
-            <div class="relative px-6 isolate pt-14 lg:px-8 ">
-                <img class="absolute h-96 w-96 left-32 inset-y-40 max-lg:hidden" src="{{ asset('assets/img/designer_2.svg') }}"
-                    alt="desginer">
-                <div class="container relative left-60 max-lg:left-0 max-w-2xl py-32 sm:py-48 lg:py-56">
+            <div class="px-6 isolate lg:px-8 lg:grid grid-cols-2 max-lg:space-y-20">
+                <img class="relative left-20 max-lg:left-0" src="{{ asset('assets/img/designer_2.svg') }}" alt="desginer">
+                <div class="max-w-2xl lg:py-32">
                     <div class="">
-                        <h1 class="text-4xl font-bold tracking-tight text-orange-500 sm:text-4xl">Hanya membuat yang
+                        <h1 class="text-4xl font-bold tracking-tight text-orange-500 max-lg:text-4xl">Hanya membuat yang
                             berkualitas!</h1>
-                        <p class="mt-6 text-sm leading-8 text-gray-600">Secara konsisten kami
+                        <p class="mt-6 text-base leading-8 text-gray-600">Secara konsisten kami
                             mempelajari teknologi terbaik agar dapat terus berinovasi dan memberikan solusi terbaik untuk
                             partner bisnis kami. Kami juga membantu komunitas teknologi di sekitar kami bertumbuh dengan
                             berbagi ilmu dan pengalaman kami.
                         </p>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="relative h-0 bg-transparent LayananPage w-96">
-            <div class="w-96 h-96 left-[5px] top-0 relative max-lg:hidden">
-                <div class="w-96 h-96 left-[800px] absolute mt-24 ml-36">
-                    <img src="{{ asset('assets/img/designer_3.svg') }}" alt="designer_3">
+                <div class="relative h-0 bg-transparent LayananPage w-96">
+                    <div class="w-96 h-96 left-[5px] top-0 relative max-lg:hidden">
+                        <div class="w-96 h-96 left-[800px] absolute mt-24 ml-36">
+                            <img src="{{ asset('assets/img/designer_3.svg') }}" alt="designer_3">
+                        </div>
                 </div>
-        </div>
-            <div class="w-64 h-36 left-[455px] top-[444px] absolute">
-                <div class="Body w-64 h-24 left-0 top-[77px] absolute text-black text-sm font-normal leading-relaxed">
-                    Bekerja dengan desainer terbaik. Kami memberikan desain yang unik, minimalis, dan memiliki
-                    fungsional yang baik, dengan pengguna sebagai titik awal pembuatan desain</div>
-                <div class="Title w-64 left-0 top-[49px] absolute text-orange-500 text-xl font-bold leading-relaxed">
-                    Design</div>
-                    <img class="w-10 h-10 left-[-1px] top-[8px] absolute" src="{{ asset('assets/img/design-logo.svg') }}" />
-            </div>
-            <div
-                class="TextBlockSectionLargeTitleBody2LineTitle h-52 pb-2.5 left-[170px] top-[160px] absolute flex-col justify-start items-start gap-4 inline-flex">
-                <div class="text-4xl font-bold leading-10 text-orange-500 Title w-96">Layanan Kami
+                    <div class="w-64 h-36 left-[455px] top-[444px] absolute">
+                        <div class="Body w-64 h-24 left-0 top-[77px] absolute text-black text-sm font-normal leading-relaxed">
+                            Bekerja dengan desainer terbaik. Kami memberikan desain yang unik, minimalis, dan memiliki
+                            fungsional yang baik, dengan pengguna sebagai titik awal pembuatan desain</div>
+                        <div class="Title w-64 left-0 top-[49px] absolute text-orange-500 text-xl font-bold leading-relaxed">
+                            Design</div>
+                            <img class="w-10 h-10 left-[-1px] top-[8px] absolute" src="{{ asset('assets/img/design-logo.svg') }}" />
+                    </div>
+                    <div
+                        class="TextBlockSectionLargeTitleBody2LineTitle h-52 pb-2.5 left-[170px] top-[160px] absolute flex-col justify-start items-start gap-4 inline-flex">
+                        <div class="text-4xl font-bold leading-10 text-orange-500 Title w-96">Layanan Kami
+                        </div>
+                        <div class="Body w-96"><span style="text-black text-base font-normal leading-relaxed">Kami menawarkan
+                                layanan pengembangan perangkat lunak dengan kualitas tinggi. Dengan pengalaman dan pengetahuan
+                                dalam model bisnis yang umum hingga yang spesifik. Standar layanan kami meliputi </span><span
+                                class="text-base font-bold leading-relaxed text-black">Great Design, Best User Experience,
+                                Clean Code, Fast Development, Smooth Deployment </span><span
+                                style="text-black text-base font-normal leading-relaxed">dan</span><span
+                                class="text-base font-bold leading-relaxed text-black"> Excellent
+                                Maintanance</span><span class="text-base font-normal leading-relaxed text-black"></span></div>
+                    </div>
+                    <div class="Info w-64 h-36 left-[170px] top-[444px] absolute">
+                        <div class="Body w-64 h-24 left-0 top-[82px] absolute text-black text-sm font-normal leading-relaxed">
+                            Tidak ada tantangan yang tidak dapat dilewati oleh engineer kami. Kami berfokus pada bahasa
+                            pemrograman dan framework yang mumpuni seperti React, Laravel, NodeJS, Go</div>
+                        <div class="Title w-64 left-0 top-[50px] absolute text-orange-500 text-xl font-bold leading-relaxed">
+                            Development</div>
+                        <div class="absolute top-0 left-0 inline-flex items-center justify-start w-64 pr-56 ElementCardInfoCardSmallIconPositionLeft h-9">
+                            </div>
+                        <img class="w-10 h-10 left-[-1px] top-[6px] absolute" src="{{ asset('assets/img/command-line.png') }}" />
+                        </div>
+                    </div>
                 </div>
-                <div class="Body w-96"><span style="text-black text-base font-normal leading-relaxed">Kami menawarkan
-                        layanan pengembangan perangkat lunak dengan kualitas tinggi. Dengan pengalaman dan pengetahuan
-                        dalam model bisnis yang umum hingga yang spesifik. Standar layanan kami meliputi </span><span
-                        class="text-base font-bold leading-relaxed text-black">Great Design, Best User Experience,
-                        Clean Code, Fast Development, Smooth Deployment </span><span
-                        style="text-black text-base font-normal leading-relaxed">dan</span><span
-                        class="text-base font-bold leading-relaxed text-black"> Excellent
-                        Maintanance</span><span class="text-base font-normal leading-relaxed text-black"></span></div>
-            </div>
-            <div class="Info w-64 h-36 left-[170px] top-[444px] absolute">
-                <div class="Body w-64 h-24 left-0 top-[82px] absolute text-black text-sm font-normal leading-relaxed">
-                    Tidak ada tantangan yang tidak dapat dilewati oleh engineer kami. Kami berfokus pada bahasa
-                    pemrograman dan framework yang mumpuni seperti React, Laravel, NodeJS, Go</div>
-                <div class="Title w-64 left-0 top-[50px] absolute text-orange-500 text-xl font-bold leading-relaxed">
-                    Development</div>
-                <div
-                    class="absolute top-0 left-0 inline-flex items-center justify-start w-64 pr-56 ElementCardInfoCardSmallIconPositionLeft h-9">
+                <div class="absolute flex items-center w-96 h-14 left-[800px] mt-96 max-lg:hidden">
+                    <div class="relative flex-col items-center mt-72 w-96 h-14">
+                        <img class="w-12 h-12 left-[-0px] top-[8.02px] absolute" src="{{ asset('assets/img/php.png') }}" />
+                        <img class="w-12 h-12 left-[245.90px] top-[8.02px] absolute"
+                            src="{{ asset('assets/img/golang.png') }}" />
+                        <img class="w-12 h-12 left-[515.44px] top-[8.02px] absolute" src="{{ asset('assets/img/js.png') }}" />
+                        <img class="w-12 h-12 left-[570.93px] top-[8.02px] absolute"
+                            src="{{ asset('assets/img/nodejs.png') }}" />
+                        <img class="w-12 h-12 left-[61.49px] top-[8.02px] absolute"
+                            src="{{ asset('assets/img/adobei.png') }}" />
+                        <img class="w-12 h-12 left-[307.47px] top-[8.02px] absolute"
+                            src="{{ asset('assets/img/react.png') }}" />
+                        <img class="w-12 h-12 left-[368.96px] top-[8.02px] absolute"
+                            src="{{ asset('assets/img/laravel.png') }}" />
+                        <img class="w-12 h-12 left-[122.99px] top-[8.02px] absolute"
+                            src="{{ asset('assets/img/html5.png') }}" />
+                        <img class="w-20 h-12 left-[430.45px] top-[8.02px] absolute"
+                            src="{{ asset('assets/img/figma.png') }}" />
+                        <img class="w-12 h-12 left-[184.48px] top-[8.02px] absolute"
+                            src="{{ asset('assets/img/adobep.png') }}" />
+                        <img class="w-12 h-12 left-[620.42px] top-[8.02px] absolute"
+                            src="{{ asset('assets/img/baloon.png') }}" />
+                    </div>
                 </div>
-                <img class="w-10 h-10 left-[-1px] top-[6px] absolute" src="{{ asset('assets/img/command-line.png') }}" />
-            </div>
-        </div>
-        </div>
-
-        <div class="absolute flex items-center w-96 h-14 left-[800px] mt-96 max-lg:hidden">
-            <div class="relative flex-col items-center mt-72 w-96 h-14">
-                <img class="w-12 h-12 left-[-0px] top-[8.02px] absolute" src="{{ asset('assets/img/php.png') }}" />
-                <img class="w-12 h-12 left-[245.90px] top-[8.02px] absolute"
-                    src="{{ asset('assets/img/golang.png') }}" />
-                <img class="w-12 h-12 left-[515.44px] top-[8.02px] absolute" src="{{ asset('assets/img/js.png') }}" />
-                <img class="w-12 h-12 left-[570.93px] top-[8.02px] absolute"
-                    src="{{ asset('assets/img/nodejs.png') }}" />
-                <img class="w-12 h-12 left-[61.49px] top-[8.02px] absolute"
-                    src="{{ asset('assets/img/adobei.png') }}" />
-                <img class="w-12 h-12 left-[307.47px] top-[8.02px] absolute"
-                    src="{{ asset('assets/img/react.png') }}" />
-                <img class="w-12 h-12 left-[368.96px] top-[8.02px] absolute"
-                    src="{{ asset('assets/img/laravel.png') }}" />
-                <img class="w-12 h-12 left-[122.99px] top-[8.02px] absolute"
-                    src="{{ asset('assets/img/html5.png') }}" />
-                <img class="w-20 h-12 left-[430.45px] top-[8.02px] absolute"
-                    src="{{ asset('assets/img/figma.png') }}" />
-                <img class="w-12 h-12 left-[184.48px] top-[8.02px] absolute"
-                    src="{{ asset('assets/img/adobep.png') }}" />
-                <img class="w-12 h-12 left-[620.42px] top-[8.02px] absolute"
-                    src="{{ asset('assets/img/baloon.png') }}" />
             </div>
         </div>
     </section>
-
-    <div id="default-carousel" class="relative w-full -bottom-96" data-carousel="slide">
+    
+    <div id="default-carousel" class="relative w-full -bottom-96 isolate" data-carousel="slide">
         <!-- Carousel wrapper -->
         <div class="relative overflow-hidden rounded-lg h-384">
             <!-- Item 1 -->
@@ -370,7 +367,7 @@
         <div class="max-w-screen-xl p-4 py-6 mx-auto md:p-8 lg:p-10">
             <div class="grid-cols-2 gap-8 space-y-8 lg:space-y-0 lg:grid md:grid-cols-3 lg:grid-cols-5">
                 <div class="flex items-center col-span-3 gap-8">
-                    <img class="object-fit" src="{{ asset('assets/img/logokonnco.png') }}" />
+                    <img class="object-fit max-lg:hidden" src="{{ asset('assets/img/logokonnco.png') }}" />
                     <div>
                         <h3 class="mb-4 text-xl font-semibold text-gray-900 uppercase lg:text-2xl">Konnco Studio</h3>
                         <p class="font-light text-gray-900 sm:text-md">
@@ -396,7 +393,7 @@
                 <div>
                     <h3 class="mb-6 text-lg font-semibold text-center text-gray-900 uppercase lg:text-left">Follow Us
                     </h3>
-                    <ul class="flex justify-center mt-5 space-x-4 mr-28">
+                    <ul class="flex justify-center mt-5 space-x-4 mr-28 max-lg:mr-0 max-lg:relative">
                         <li>
                             <a href="https://www.instagram.com/konnco.studio/" target="_blank"
                                 class="text-gray-900 hover:text-gray-900">
