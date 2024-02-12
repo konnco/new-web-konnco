@@ -121,7 +121,7 @@
     <section id="about" class="max-w-full">
         <div class="bg-transparent">
             <div class="px-6 isolate lg:px-8 lg:grid grid-cols-2 max-lg:space-y-20">
-                <img class="relative left-20 max-lg:left-0 inset-y-16" src="{{ asset('assets/img/designer_2.svg') }}" alt="desginer">
+                <img class="relative left-20 max-lg:left-28 inset-y-16" src="{{ asset('assets/img/designer_2.svg') }}" alt="desginer">
                 <div class="max-w-2xl lg:py-32">
                     <div class="">
                         <h1 class="text-4xl font-bold tracking-tight text-orange-500 max-lg:text-5x">Hanya membuat yang
@@ -149,33 +149,9 @@
                                     class="text-base font-bold leading-relaxed text-black max-lg:text-2xl"> Excellent
                                     Maintanance</span><span class="text-base font-normal leading-relaxed text-black"></span>
                                 </p>
-                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="bg-white">
-                <div class="px-6 isolate lg:px-8 max-lg:space-y-20 relative">
-                        <div class="w-64 h-36 absolute left-[100px] max-lg:left-[30px] max-lg:-bottom-[170px]">
-                            <img class="w-10 h-10 left-[-1px] top-[8px] absolute" src="{{ asset('assets/img/design-logo.svg') }}" />
-                            <div class="Title w-64 left-0 top-[49px] absolute text-orange-500 text-xl font-bold leading-relaxed">
-                                Design</div>
-                            <div class="Body w-64 h-24 left-0 top-[77px] absolute text-black text-sm font-normal leading-relaxed">
-                                Bekerja dengan desainer terbaik. Kami memberikan desain yang unik, minimalis, dan memiliki
-                                fungsional yang baik, dengan pengguna sebagai titik awal pembuatan desain</div>
-                        </div>
-                        <div class="w-64 h-36 absolute left-[400px] max-lg:left-500 max-lg:-bottom-[170px]">
-                            <img class="w-10 h-10 left-[-1px] top-[8px] absolute" src="{{ asset('assets/img/command-line.png') }}" />
-                            <div class="Title w-64 left-0 top-[49px] absolute text-orange-500 text-xl font-bold leading-relaxed">
-                                Development</div>
-                            <div class="Body w-64 h-24 left-0 top-[77px] absolute text-black text-sm font-normal leading-relaxed">
-                                Tidak ada tantangan yang tidak dapat dilewati oleh engineer kami. Kami berfokus pada bahasa
-                                pemrograman dan framework yang mumpuni seperti React, Laravel, NodeJS, Go</div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                            {{-- <div class="absolute items-center mt-72 w-96 h-14">
+                    <div class="absolute items-center mt-72 w-96 h-14 lg:right-80 lg:-bottom-[1150px] max-lg:left-20">
                                 <img class="w-12 h-12 left-[-0px] top-[8.02px] absolute" src="{{ asset('assets/img/php.png') }}" />
                                 <img class="w-12 h-12 left-[245.90px] top-[8.02px] absolute"
                                     src="{{ asset('assets/img/golang.png') }}" />
@@ -196,13 +172,29 @@
                                     src="{{ asset('assets/img/adobep.png') }}" />
                                 <img class="w-12 h-12 left-[620.42px] top-[8.02px] absolute"
                                     src="{{ asset('assets/img/baloon.png') }}" />
-                            </div> --}}
                             </div>
-                        </div>
-                    </div>
                 </div>
             </div>
-        </div>
+            <div class="bg-white">
+                <div class="px-6 isolate lg:px-8 max-lg:space-y-20 relative">
+                        <div class="w-64 h-36 absolute left-[100px] max-lg:left-[30px] max-lg:-bottom-[170px]">
+                            <img class="w-10 h-10 left-[-1px] top-[8px] absolute" src="{{ asset('assets/img/design-logo.svg') }}" />
+                            <div class="Title w-64 left-0 top-[49px] absolute text-orange-500 text-xl font-bold leading-relaxed">
+                                Design</div>
+                            <div class="Body w-64 h-24 left-0 top-[77px] absolute text-black text-sm font-normal leading-relaxed">
+                                Bekerja dengan desainer terbaik. Kami memberikan desain yang unik, minimalis, dan memiliki
+                                fungsional yang baik, dengan pengguna sebagai titik awal pembuatan desain</div>
+                        </div>
+                        <div class="w-64 h-36 absolute left-[400px] max-lg:left-500 max-lg:-bottom-[170px]">
+                            <img class="w-10 h-10 left-[-1px] top-[8px] absolute" src="{{ asset('assets/img/command-line.png') }}" />
+                            <div class="Title w-64 left-0 top-[49px] absolute text-orange-500 text-xl font-bold leading-relaxed">
+                                Development</div>
+                            <div class="Body w-64 h-24 left-0 top-[77px] absolute text-black text-sm font-normal leading-relaxed">
+                                Tidak ada tantangan yang tidak dapat dilewati oleh engineer kami. Kami berfokus pada bahasa
+                                pemrograman dan framework yang mumpuni seperti React, Laravel, NodeJS, Go</div>
+                            </div>
+                        </div>
+            </div>
     </section>
     <div id="default-carousel" class="relative w-full isolate" data-carousel="slide">
         <!-- Carousel wrapper -->
@@ -248,12 +240,11 @@
         </div>
     </div>
 
-    <div class="justify-center max-w-full max-h-80 px-4 py-10 mx-auto space-y-12 overflow-hidden bottom-[350px] relative">
+    <div class="justify-center max-w-full max-h-72 px-4 py-10 mx-auto space-y-12 overflow-hidden bottom-[350px] relative">
         <!-- Card Slider -->
         <div class="slider-container">
             <div class="swiper-container card-slider">
                 <div class="flex items-center swiper-wrapper gap-x-0">
-
                     <!-- Slide -->
                     <div class="swiper-slide">
                         <div class="card">
