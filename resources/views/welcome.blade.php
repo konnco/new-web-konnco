@@ -151,7 +151,7 @@
                                 </p>
                         </div>
                     </div>
-                    <div class="absolute items-center mt-72 w-96 h-14 lg:right-80 lg:-bottom-[1150px] max-lg:left-20">
+                    <div class="absolute items-center mt-72 w-96 h-14 lg:right-80 lg:-bottom-[1150px] max-lg:left-20 xl:top-[1500px]">
                                 <img class="w-12 h-12 left-[-0px] top-[8.02px] absolute" src="{{ asset('assets/img/php.png') }}" />
                                 <img class="w-12 h-12 left-[245.90px] top-[8.02px] absolute"
                                     src="{{ asset('assets/img/golang.png') }}" />
@@ -257,7 +257,7 @@
                      <!-- Slide -->
                      <div class="swiper-slide">
                         <div class="card">
-                            <img class="px-0 card-image" src="{{ asset('assets/img_company/pusaka.png') }}"
+                            <img class="card-image" src="{{ asset('assets/img_company/pusaka.png') }}"
                                 alt="alternative" />
                         </div>
                     </div> <!-- end of swiper-slide -->
@@ -266,7 +266,7 @@
                      <!-- Slide -->
                      <div class="swiper-slide">
                         <div class="card">
-                            <img class="px-0 card-image" src="{{ asset('assets/img_company/raycare.png') }}"
+                            <img class="card-image" src="{{ asset('assets/img_company/raycare.png') }}"
                                 alt="alternative" />
                         </div>
                     </div> <!-- end of swiper-slide -->
@@ -275,7 +275,7 @@
                      <!-- Slide -->
                      <div class="swiper-slide">
                         <div class="card">
-                            <img class="px-0 card-image" src="{{ asset('assets/img_company/wodo.png') }}"
+                            <img class="card-image" src="{{ asset('assets/img_company/wodo.png') }}"
                                 alt="alternative" />
                         </div>
                     </div> <!-- end of swiper-slide -->
@@ -284,7 +284,7 @@
                      <!-- Slide -->
                      <div class="swiper-slide">
                         <div class="card">
-                            <img class="px-0 card-image" src="{{ asset('assets/img_company/v1plus.png') }}"
+                            <img class="card-image" src="{{ asset('assets/img_company/v1plus.png') }}"
                                 alt="alternative" />
                         </div>
                     </div> <!-- end of swiper-slide -->
