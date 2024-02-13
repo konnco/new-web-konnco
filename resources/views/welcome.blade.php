@@ -226,7 +226,7 @@
             </div>
         </div>
         <!-- Slider indicators -->
-        <div class="absolute z-30 flex space-x-3 -translate-x-1/2 top-70 left-1/2 rtl:space-x-reverse">
+        <div class="absolute z-30 flex space-x-3 -translate-x-1/2 top-70 left-1/2 rtl:space-x-reverse max-lg:top-[950px]">
             <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
                 data-carousel-slide-to="0"></button>
             <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
@@ -240,7 +240,7 @@
         </div>
     </div>
 
-    <div class="justify-center max-w-full max-h-72 px-4 py-10 mx-auto space-y-12 overflow-hidden bottom-[350px] relative">
+    <div class="justify-center max-w-full max-h-72 px-4 py-10 mx-auto space-y-12 overflow-hidden bottom-[350px] relative max-lg:bottom-[520px]">
         <!-- Card Slider -->
         <div class="slider-container">
             <div class="swiper-container card-slider">
@@ -358,7 +358,7 @@
     </div> <!-- end of container -->
     </div>
 
-    <footer class="relative -top-[400px] left-0 right-0 z-30 bg-orange-200">
+    <footer class="relative -top-[400px] left-0 right-0 z-30 bg-orange-200 max-lg:-top-[550px]">
         <div class="max-w-screen-xl p-4 py-6 mx-auto md:p-8 lg:p-10">
             <div class="grid-cols-2 gap-8 space-y-8 lg:space-y-0 lg:grid md:grid-cols-3 lg:grid-cols-5">
                 <div class="flex items-center col-span-3 gap-8">
