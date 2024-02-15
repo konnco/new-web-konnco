@@ -151,13 +151,13 @@
                     </div>
         <div class="">
             <div class="px-6 lg:px-20 lg:py-16 lg:grid grid-cols-2">
-                <div>
+                <div id="design">
                     <img class="w-10 h-10 left-[-1px] top-[8px]" src="{{ asset('assets/img/design-logo.svg') }}" />
                     <h1 class="text-orange-500 font-bold"> Design</h1>
                     <p class="text-sm leading-relaxed font-normal w-64">Bekerja dengan desainer terbaik. Kami memberikan desain yang unik, minimalis, dan memiliki
                         fungsional yang baik, dengan pengguna sebagai titik awal pembuatan desain</p>
                 </div>
-                <div>
+                <div id="development">
                     <img class="w-10 h-10 left-[-1px] top-[8px]" src="{{ asset('assets/img/command-line.png') }}" />
                     <h1 class="text-orange-500 font-bold">Development</h1>
                     <p class="text-sm leading-relaxed font-normal w-64">Tidak ada tantangan yang tidak dapat dilewati oleh engineer kami. Kami berfokus pada bahasa
