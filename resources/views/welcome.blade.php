@@ -34,7 +34,7 @@
     <nav x-data="{navbarOpen: false}" class="relative flex items-center justify-between w-full p-2 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
             <a href="#" class="-m-1.5 p-1.5">
-                <img class="w-auto h-9 max-lg:h-12" src="{{ asset('assets/img/logokonnco.png') }}" alt="">
+                <img class="w-auto h-9 max-lg:h-6" src="{{ asset('assets/img/logokonnco.png') }}" alt="">
             </a>
         </div>
         <div class="items-center lg:flex lg:flex-grow lg:justify-end lg:gap-x-10 scroll-smooth max-lg:hidden">
@@ -150,7 +150,7 @@
                         </div>
                     </div>
         <div class="">
-            <div class="px-6 lg:px-8 lg:grid grid-cols-2">
+            <div class="px-6 lg:px-20 lg:py-16 lg:grid grid-cols-2">
                 <div>
                     <img class="w-10 h-10 left-[-1px] top-[8px]" src="{{ asset('assets/img/design-logo.svg') }}" />
                     <h1 class="text-orange-500 font-bold"> Design</h1>
