@@ -34,7 +34,7 @@
     <nav x-data="{navbarOpen: false}" class="relative flex items-center justify-between w-full p-2 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
             <a href="#" class="-m-1.5 p-1.5">
-                <img class="w-auto h-9 max-lg:h-6" src="{{ asset('assets/img/logokonnco.png') }}" alt="">
+                <img class="w-auto h-9 max-lg:h-10" src="{{ asset('assets/img/logokonnco.png') }}" alt="">
             </a>
         </div>
         <div class="items-center lg:flex lg:flex-grow lg:justify-end lg:gap-x-10 scroll-smooth max-lg:hidden">
