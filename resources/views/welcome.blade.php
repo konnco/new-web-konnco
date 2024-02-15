@@ -21,13 +21,13 @@
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@2"></script>
 </head>
 
-<body class="max-h-384" x-data="{ atTop: false }">
+<body x-data="{ atTop: false }">
 <header class="fixed w-full inset-x-0 top-0 z-50 align-items-start xl:translate-x-0" x-scroll-to-header
     class="main-header fixed left-0 right-0 z-[111]"
     :class="{
         'shadow-lg': atTop,
         'bg-orange-200 lg:bg-transparent text-white max-lg:bg-transparent': !atTop,
-        'bg-orange-200 lg:bg-white text-orange-500 max-lg:bg-transparent': atTop,
+        'bg-orange-200 lg:bg-white text-orange-500 max-lg:bg-white': atTop,
 
     }"
     @scroll.window="atTop = (window.pageYOffset < 50) ? false: true">
@@ -118,7 +118,7 @@
         </div>
     </section>
 
-    <section id="about" class="max-w-full">
+    <section id="about" class="">
         <div class="bg-transparent">
             <div class="px-6 isolate lg:px-8 lg:grid grid-cols-2 max-lg:space-y-20">
                 <img class="relative left-20 max-lg:left-28 inset-y-16" src="{{ asset('assets/img/designer_2.svg') }}" alt="desginer">
@@ -226,7 +226,7 @@
             </div>
         </div>
         <!-- Slider indicators -->
-        <div class="absolute z-30 flex space-x-3 -translate-x-1/2 top-70 left-1/2 rtl:space-x-reverse max-lg:top-[950px]">
+        <div class="absolute z-30 lg:flex space-x-3 -translate-x-1/2 top-70 left-1/2 rtl:space-x-reverse max-lg:top-[950px]">
             <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
                 data-carousel-slide-to="0"></button>
             <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
@@ -244,11 +244,11 @@
         <!-- Card Slider -->
         <div class="slider-container">
             <div class="swiper-container card-slider">
-                <div class="flex items-center swiper-wrapper gap-x-0">
+                <div class="lg:flex items-center swiper-wrapper gap-x-0">
                     <!-- Slide -->
                     <div class="swiper-slide">
                         <div class="card">
-                            <img class="h-32 px-0 card-image" src="{{ asset('assets/img_company/1cerdas.png') }}"
+                            <img class="lg:h-32 px-0 card-image" src="{{ asset('assets/img_company/1cerdas.png') }}"
                                 alt="alternative" />
                         </div>
                     </div> <!-- end of swiper-slide -->
@@ -343,7 +343,7 @@
                     <!--Slide-->
                     <div class="swiper-slide">
                         <div class="card">
-                            <img class="h-12 card-image" src="{{ asset('assets/img_company/mayin.png') }}"
+                            <img class="lg:h-12 card-image" src="{{ asset('assets/img_company/mayin.png') }}"
                                 alt="alternative"/>
                         </div>
                     </div> <!-- end of swiper-slide -->
@@ -358,7 +358,7 @@
     </div> <!-- end of container -->
     </div>
 
-    <footer class="relative -top-[400px] left-0 right-0 z-30 bg-orange-200 max-lg:-top-[550px]">
+    <footer class="relative left-0 right-0 z-30 bg-orange-200">
         <div class="max-w-screen-xl p-4 py-6 mx-auto md:p-8 lg:p-10">
             <div class="grid-cols-2 gap-8 space-y-8 lg:space-y-0 lg:grid md:grid-cols-3 lg:grid-cols-5">
                 <div class="flex items-center col-span-3 gap-8">
