@@ -141,31 +141,31 @@
                                 <p class="mt-6 text-base leading-8 text-gray-600 max-lg:text-1xl">Kami menawarkan
                                     layanan pengembangan perangkat lunak dengan kualitas tinggi. Dengan pengalaman dan pengetahuan
                                     dalam model bisnis yang umum hingga yang spesifik. Standar layanan kami meliputi </span><span
-                                    class="text-base font-bold leading-relaxed text-black max-lg:text-2xl">Great Design, Best User Experience,
+                                    class="text-base font-bold leading-relaxed text-black max-lg:text-lg">Great Design, Best User Experience,
                                     Clean Code, Fast Development, Smooth Deployment </span><span
-                                    style="text-black text-base font-normal leading-relaxed max-lg:text-1xl">dan</span><span
-                                    class="text-base font-bold leading-relaxed text-black max-lg:text-2xl"> Excellent
-                                    Maintanance</span><span class="text-base font-normal leading-relaxed text-black"></span>
+                                    style="">dan</span><span
+                                    class="text-base font-bold leading-relaxed text-black max-lg:text-lg"> Excellent
+                                    Maintanance</span>
                                 </p>
                         </div>
                     </div>
         <div class="">
-            <div class="px-6 lg:px-8 grid grid-cols-2 ">
+            <div class="px-6 lg:px-8 lg:grid grid-cols-2">
                 <div>
                     <img class="w-10 h-10 left-[-1px] top-[8px]" src="{{ asset('assets/img/design-logo.svg') }}" />
-                    <h1> Design</h1>
+                    <h1 class="text-orange-500 font-bold"> Design</h1>
                     <p class="text-sm leading-relaxed font-normal w-64">Bekerja dengan desainer terbaik. Kami memberikan desain yang unik, minimalis, dan memiliki
                         fungsional yang baik, dengan pengguna sebagai titik awal pembuatan desain</p>
                 </div>
                 <div>
                     <img class="w-10 h-10 left-[-1px] top-[8px]" src="{{ asset('assets/img/command-line.png') }}" />
-                    <h1>Development</h1>
+                    <h1 class="text-orange-500 font-bold">Development</h1>
                     <p class="text-sm leading-relaxed font-normal w-64">Tidak ada tantangan yang tidak dapat dilewati oleh engineer kami. Kami berfokus pada bahasa
                         pemrograman dan framework yang mumpuni seperti React, Laravel, NodeJS, Go</p>
                 </div>
             </div>
-            <div class="w-96 h-14">
-                {{-- <img class="w-12 h-12 left-[-0px] " src="{{ asset('assets/img/php.png') }}" />
+            {{-- <div class="w-96 h-14">
+                <img class="w-12 h-12 left-[-0px] " src="{{ asset('assets/img/php.png') }}" />
                 <img class="w-12 h-12 left-[245.90px] top-[8.02px]" src="{{ asset('assets/img/golang.png') }}" />
                 <img class="w-12 h-12 left-[515.44px] top-[8.02px]" src="{{ asset('assets/img/js.png') }}" />
                 <img class="w-12 h-12 left-[570.93px] top-[8.02px]" src="{{ asset('assets/img/nodejs.png') }}" />
