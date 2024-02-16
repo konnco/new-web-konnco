@@ -118,7 +118,7 @@
 
     <section id="about" class="">
         <div class="bg-transparent">
-            <div class="px-6 isolate lg:px-8 lg:grid grid-cols-2 max-lg:space-y-20">
+            <div class="px-6 lg:px-8 lg:grid grid-cols-2 max-lg:space-y-20">
                 <img class="relative inset-y-16" src="{{ asset('assets/img/designer_2.svg') }}" alt="desginer">
                 <div class="max-w-2xl lg:py-32">
                     <div class="">
@@ -133,7 +133,7 @@
                 </div>
             </div>
             <div class="bg-white">
-                <div class="px-6 isolate lg:px-8 lg:grid grid-cols-2 max-lg:space-y-20">
+                <div class="px-6 lg:px-8 lg:grid grid-cols-2 max-lg:space-y-20">
                     <img class="w-96 h-96 right-32 max-lg:left-0 max-w-full" src="{{ asset('assets/img/designer_3.svg') }}"
                         alt="desginer">
                         <div class="max-w-2xl lg:py-32 lg:left-16 ">
@@ -201,51 +201,50 @@
                             </div>
                         </div>
             </div> --}}
+            <div id="default-carousel" class="relative w-full h-192 overflow-hidden" data-carousel="slide">
+                <!-- Carousel wrapper -->
+                <div class="rounded-lg">
+                    <!-- Item 1 -->
+                    <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                        <img src="{{ asset('assets/img/ghraa-page.svg') }}"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                        <img src="{{ asset('assets/img/1cerdas-page.svg') }}"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                        <img src="{{ asset('assets/img/jogbike-page.svg') }}"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                        <img src="{{ asset('assets/img/parlent-page.svg') }}"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 5 -->
+                    <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                        <img src="{{ asset('assets/img/artomoro-page.svg') }}"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                </div>
+                <!-- Slider indicators -->
+                <div class="z-50 space-x-3 -translate-x-1/2 left-1/2 rtl:space-x-reverse">
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                        data-carousel-slide-to="0"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                        data-carousel-slide-to="1"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                        data-carousel-slide-to="2"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                        data-carousel-slide-to="3"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+                        data-carousel-slide-to="4"></button>
+                </div>
+            </div>
     </section>
-    <section id="slider" class="">
-        <div id="default-carousel" class="relative h-96 max-lg:h-192 overflow-hidden" data-carousel="slide">
-            <!-- Carousel wrapper -->
-            <div class="rounded-lg">
-                <!-- Item 1 -->
-                <div class="hidden duration-1000 ease-in-out" data-carousel-item>
-                    <img src="{{ asset('assets/img/ghraa-page.svg') }}"
-                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                </div>
-                <!-- Item 2 -->
-                <div class="hidden duration-1000 ease-in-out" data-carousel-item>
-                    <img src="{{ asset('assets/img/1cerdas-page.svg') }}"
-                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                </div>
-                <!-- Item 3 -->
-                <div class="hidden duration-1000 ease-in-out" data-carousel-item>
-                    <img src="{{ asset('assets/img/jogbike-page.svg') }}"
-                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                </div>
-                <!-- Item 4 -->
-                <div class="hidden duration-1000 ease-in-out" data-carousel-item>
-                    <img src="{{ asset('assets/img/parlent-page.svg') }}"
-                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                </div>
-                <!-- Item 5 -->
-                <div class="hidden duration-1000 ease-in-out" data-carousel-item>
-                    <img src="{{ asset('assets/img/artomoro-page.svg') }}"
-                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                </div>
-            </div>
-            <!-- Slider indicators -->
-            <div class="z-50 space-x-3 -translate-x-1/2 left-1/2 rtl:space-x-reverse">
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
-                    data-carousel-slide-to="0"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
-                    data-carousel-slide-to="1"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
-                    data-carousel-slide-to="2"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
-                    data-carousel-slide-to="3"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
-                    data-carousel-slide-to="4"></button>
-            </div>
-        </div>
 
         <div class="justify-center max-w-full max-h-72 px-4 py-10 mx-auto space-y-12 overflow-hidden">
             <!-- Card Slider -->
@@ -364,7 +363,6 @@
     
         </div> <!-- end of container -->
         </div>
-    </section>
 
     <footer class="relative left-0 right-0 z-30 bg-orange-200">
         <div class="max-w-screen-xl p-4 py-6 mx-auto md:p-8 lg:p-10">
