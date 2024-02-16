@@ -77,8 +77,7 @@
                 <div class="py-6 space-y-2">
                     <a href="#home" x-on:click="navbarOpen = false" class="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-orange-300">Home</a>
                     <a href="#about" x-on:click="navbarOpen = false" class="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-orange-300">About</a>
-                    <a href="#"
-                        class="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-orange-300">Contact</a>
+                    <a href="https://frankysomail.typeform.com/to/hJTHRH?typeform-source=konnco.com"class="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-orange-300">Contact</a>
                 </div>
                 <div class="py-6">
                     <a href="#"
@@ -390,7 +389,7 @@
                             <a href="#about" class="hover:underline scroll-smooth">About</a>
                         </li>
                         <li class="mb-2">
-                            <a href="#" class="hover:underline">Contact</a>
+                            <a href="https://frankysomail.typeform.com/to/hJTHRH?typeform-source=konnco.com" class="hover:underline">Contact</a>
                         </li>
                     </ul>
                 </div>
