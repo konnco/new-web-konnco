@@ -202,7 +202,7 @@
                         </div>
             </div> --}}
     </section>
-    <div id="default-carousel" class="overflow-hidden relative h-192 max-lg:h-96 w-full" data-carousel="slide">
+    <div id="default-carousel" class="overflow-hidden relative h-[768px] max-lg:h-[384px] w-full" data-carousel="slide">
         <!-- Carousel wrapper -->
         <div class="rounded-lg">
             <!-- Item 1 -->
