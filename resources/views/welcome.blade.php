@@ -42,8 +42,7 @@
                 class="text-base font-black leading-6  transition duration-300 ease-in-out delay-150 scroll-smooth hover:-translate-y-1 hover:scale-110 hover:text-black":class="{'lg:hover:text-black':atTop}">Home</a>
             <a href="#about"
                 class="text-base font-black leading-6  transition duration-300 ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-black" :class="{'lg:hover:text-black':atTop}">About</a>
-            <a href="#"
-                class="text-base font-black leading-6  transition duration-300 ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-black":class="{'lg:hover:text-black':atTop}">Contact</a>
+            <a href="https://frankysomail.typeform.com/to/hJTHRH?typeform-source=konnco.com" target="_blank" class="text-base font-black leading-6  transition duration-300 ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-black":class="{'lg:hover:text-black':atTop}">Contact</a>
             <a href="#"
                 class="rounded-full bg-orange-500 px-8 py-1.5 text-sm font-bold shadow-sm ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-orange-600 hover:text-black":class="{'lg:bg-orange-500 lg:text-white lg:hover:bg-orange-600 lg:hover:text-black':atTop}">Make
                 Project</a>
@@ -77,7 +76,7 @@
                 <div class="py-6 space-y-2">
                     <a href="#home" x-on:click="navbarOpen = false" class="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-orange-300">Home</a>
                     <a href="#about" x-on:click="navbarOpen = false" class="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-orange-300">About</a>
-                    <a href="https://frankysomail.typeform.com/to/hJTHRH?typeform-source=konnco.com"class="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-orange-300">Contact</a>
+                    <a href="https://frankysomail.typeform.com/to/hJTHRH?typeform-source=konnco.com" target="_blank" class="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-orange-300">Contact</a>
                 </div>
                 <div class="py-6">
                     <a href="#"
@@ -389,7 +388,7 @@
                             <a href="#about" class="hover:underline scroll-smooth">About</a>
                         </li>
                         <li class="mb-2">
-                            <a href="https://frankysomail.typeform.com/to/hJTHRH?typeform-source=konnco.com" class="hover:underline">Contact</a>
+                            <a href="https://frankysomail.typeform.com/to/hJTHRH?typeform-source=konnco.com" target="_blank" class="hover:underline">Contact</a>
                         </li>
                     </ul>
                 </div>
