@@ -152,15 +152,15 @@
         <div class="">
             <div class="px-6 lg:px-20 lg:py-16 lg:grid grid-cols-2">
                 <div id="design">
-                    <img class="w-10 h-10 left-[-1px] top-[8px]" src="{{ asset('assets/img/design-logo.svg') }}" />
-                    <h1 class="text-orange-500 font-bold"> Design</h1>
-                    <p class="text-sm leading-relaxed font-normal w-64">Bekerja dengan desainer terbaik. Kami memberikan desain yang unik, minimalis, dan memiliki
+                    <img class="lg:w-16 lg:h-16 w-14 h-14 left-[-1px] top-[8px]" src="{{ asset('assets/img/design-logo.svg') }}" />
+                    <h1 class="text-orange-500 font-bold lg:text-2xl"> Design</h1>
+                    <p class="lg:text-lg leading-relaxed font-normal lg:w-72">Bekerja dengan desainer terbaik. Kami memberikan desain yang unik, minimalis, dan memiliki
                         fungsional yang baik, dengan pengguna sebagai titik awal pembuatan desain</p>
                 </div>
                 <div id="development">
-                    <img class="w-10 h-10 left-[-1px] top-[8px]" src="{{ asset('assets/img/command-line.png') }}" />
-                    <h1 class="text-orange-500 font-bold">Development</h1>
-                    <p class="text-sm leading-relaxed font-normal w-64">Tidak ada tantangan yang tidak dapat dilewati oleh engineer kami. Kami berfokus pada bahasa
+                    <img class="lg:w-16 lg:h-16 w-14 h-14 left-[-1px] top-[8px]" src="{{ asset('assets/img/command-line.png') }}" />
+                    <h1 class="text-orange-500 font-bold lg:text-2xl">Development</h1>
+                    <p class="lg:text-lg leading-relaxed font-normal lg:w-72">Tidak ada tantangan yang tidak dapat dilewati oleh engineer kami. Kami berfokus pada bahasa
                         pemrograman dan framework yang mumpuni seperti React, Laravel, NodeJS, Go</p>
                 </div>
             </div>
@@ -202,167 +202,170 @@
                         </div>
             </div> --}}
     </section>
-    <div id="default-carousel" class="overflow-hidden relative h-[768px] max-lg:h-[384px] w-full" data-carousel="slide">
-        <!-- Carousel wrapper -->
-        <div class="rounded-lg">
-            <!-- Item 1 -->
-            <div class="hidden duration-1000 ease-in-out" data-carousel-item>
-                <img src="{{ asset('assets/img/ghraa-page.svg') }}"
-                    class="absolute w-full -translate-x-1/2 left-1/2" alt="...">
+    
+    <section id="content wrapper">
+        <div id="default-carousel" class="overflow-hidden relative h-[768px] max-lg:h-[384px] w-full" data-carousel="slide">
+            <!-- Carousel wrapper -->
+            <div class="rounded-lg">
+                <!-- Item 1 -->
+                <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                    <img src="{{ asset('assets/img/ghraa-page.svg') }}"
+                        class="absolute w-full -translate-x-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 2 -->
+                <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                    <img src="{{ asset('assets/img/1cerdas-page.svg') }}"
+                        class="absolute w-full -translate-x-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 3 -->
+                <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                    <img src="{{ asset('assets/img/jogbike-page.svg') }}"
+                        class="absolute w-full -translate-x-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 4 -->
+                <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                    <img src="{{ asset('assets/img/parlent-page.svg') }}"
+                        class="absolute w-full -translate-x-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 5 -->
+                <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                    <img src="{{ asset('assets/img/artomoro-page.svg') }}"
+                        class="absolute w-full -translate-x-1/2 left-1/2" alt="...">
+                </div>
             </div>
-            <!-- Item 2 -->
-            <div class="hidden duration-1000 ease-in-out" data-carousel-item>
-                <img src="{{ asset('assets/img/1cerdas-page.svg') }}"
-                    class="absolute w-full -translate-x-1/2 left-1/2" alt="...">
-            </div>
-            <!-- Item 3 -->
-            <div class="hidden duration-1000 ease-in-out" data-carousel-item>
-                <img src="{{ asset('assets/img/jogbike-page.svg') }}"
-                    class="absolute w-full -translate-x-1/2 left-1/2" alt="...">
-            </div>
-            <!-- Item 4 -->
-            <div class="hidden duration-1000 ease-in-out" data-carousel-item>
-                <img src="{{ asset('assets/img/parlent-page.svg') }}"
-                    class="absolute w-full -translate-x-1/2 left-1/2" alt="...">
-            </div>
-            <!-- Item 5 -->
-            <div class="hidden duration-1000 ease-in-out" data-carousel-item>
-                <img src="{{ asset('assets/img/artomoro-page.svg') }}"
-                    class="absolute w-full -translate-x-1/2 left-1/2" alt="...">
+            <!-- Slider indicators -->
+            <div class="relative hidden z-50 space-x-3 -translate-x-1/2 left-1/2 rtl:space-x-reverse">
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                    data-carousel-slide-to="0"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                    data-carousel-slide-to="1"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                    data-carousel-slide-to="2"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                    data-carousel-slide-to="3"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+                    data-carousel-slide-to="4"></button>
             </div>
         </div>
-        <!-- Slider indicators -->
-        <div class="relative hidden z-50 space-x-3 -translate-x-1/2 left-1/2 rtl:space-x-reverse">
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
-                data-carousel-slide-to="0"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
-                data-carousel-slide-to="1"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
-                data-carousel-slide-to="2"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
-                data-carousel-slide-to="3"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
-                data-carousel-slide-to="4"></button>
-        </div>
-    </div>
-
-        <div class="justify-center max-w-full max-h-72 px-4 py-10 mx-auto space-y-12 overflow-hidden relative">
-            <!-- Card Slider -->
-            <div class="slider-container">
-                <div class="swiper-container card-slider">
-                    <div class="items-center swiper-wrapper gap-x-0">
-                        <!-- Slide -->
-                        <div class="swiper-slide">
-                            <div class="card">
-                                <img class="lg:h-32 px-0 card-image" src="{{ asset('assets/img_company/1cerdas.png') }}"
-                                    alt="alternative" />
-                            </div>
-                        </div> <!-- end of swiper-slide -->
-                        <!-- end of slide -->
     
-                         <!-- Slide -->
-                         <div class="swiper-slide">
-                            <div class="card">
-                                <img class="card-image" src="{{ asset('assets/img_company/pusaka.png') }}"
-                                    alt="alternative" />
+            <div class="justify-center max-w-full max-h-72 px-4 py-10 mx-auto space-y-12 overflow-hidden relative">
+                <!-- Card Slider -->
+                <div class="slider-container">
+                    <div class="swiper-container card-slider">
+                        <div class="items-center swiper-wrapper gap-x-0">
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="lg:h-32 px-0 card-image" src="{{ asset('assets/img_company/1cerdas.png') }}"
+                                        alt="alternative" />
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+        
+                             <!-- Slide -->
+                             <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="{{ asset('assets/img_company/pusaka.png') }}"
+                                        alt="alternative" />
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+        
+                             <!-- Slide -->
+                             <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="{{ asset('assets/img_company/raycare.png') }}"
+                                        alt="alternative" />
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+        
+                             <!-- Slide -->
+                             <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="{{ asset('assets/img_company/wodo.png') }}"
+                                        alt="alternative" />
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+        
+                             <!-- Slide -->
+                             <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="{{ asset('assets/img_company/v1plus.png') }}"
+                                        alt="alternative" />
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+        
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="{{ asset('assets/img_company/logo10.png') }}"
+                                        alt="alternative" />
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+        
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="{{ asset('assets/img_company/parlent.png') }}"
+                                        alt="alternative" />
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+        
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="{{ asset('assets/img_company/efisiensi.png') }}"
+                                        alt="alternative" />
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+        
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="{{ asset('assets/img_company/emon.png') }}"
+                                        alt="alternative" />
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+        
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="{{ asset('assets/img_company/dirjen.png') }}"
+                                        alt="alternative" />
+                                </div>
                             </div>
-                        </div> <!-- end of swiper-slide -->
-                        <!-- end of slide -->
-    
-                         <!-- Slide -->
-                         <div class="swiper-slide">
-                            <div class="card">
-                                <img class="card-image" src="{{ asset('assets/img_company/raycare.png') }}"
-                                    alt="alternative" />
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="{{ asset('assets/img_company/lapas.png') }}"
+                                        alt="alternative" />
+                                </div>
                             </div>
-                        </div> <!-- end of swiper-slide -->
-                        <!-- end of slide -->
-    
-                         <!-- Slide -->
-                         <div class="swiper-slide">
-                            <div class="card">
-                                <img class="card-image" src="{{ asset('assets/img_company/wodo.png') }}"
-                                    alt="alternative" />
-                            </div>
-                        </div> <!-- end of swiper-slide -->
-                        <!-- end of slide -->
-    
-                         <!-- Slide -->
-                         <div class="swiper-slide">
-                            <div class="card">
-                                <img class="card-image" src="{{ asset('assets/img_company/v1plus.png') }}"
-                                    alt="alternative" />
-                            </div>
-                        </div> <!-- end of swiper-slide -->
-                        <!-- end of slide -->
-    
-                        <!-- Slide -->
-                        <div class="swiper-slide">
-                            <div class="card">
-                                <img class="card-image" src="{{ asset('assets/img_company/logo10.png') }}"
-                                    alt="alternative" />
-                            </div>
-                        </div> <!-- end of swiper-slide -->
-                        <!-- end of slide -->
-    
-                        <!-- Slide -->
-                        <div class="swiper-slide">
-                            <div class="card">
-                                <img class="card-image" src="{{ asset('assets/img_company/parlent.png') }}"
-                                    alt="alternative" />
-                            </div>
-                        </div> <!-- end of swiper-slide -->
-                        <!-- end of slide -->
-    
-                        <!-- Slide -->
-                        <div class="swiper-slide">
-                            <div class="card">
-                                <img class="card-image" src="{{ asset('assets/img_company/efisiensi.png') }}"
-                                    alt="alternative" />
-                            </div>
-                        </div> <!-- end of swiper-slide -->
-                        <!-- end of slide -->
-    
-                        <!-- Slide -->
-                        <div class="swiper-slide">
-                            <div class="card">
-                                <img class="card-image" src="{{ asset('assets/img_company/emon.png') }}"
-                                    alt="alternative" />
-                            </div>
-                        </div> <!-- end of swiper-slide -->
-                        <!-- end of slide -->
-    
-                        <!-- Slide -->
-                        <div class="swiper-slide">
-                            <div class="card">
-                                <img class="card-image" src="{{ asset('assets/img_company/dirjen.png') }}"
-                                    alt="alternative" />
-                            </div>
-                        </div>
-                        <!-- Slide -->
-                        <div class="swiper-slide">
-                            <div class="card">
-                                <img class="card-image" src="{{ asset('assets/img_company/lapas.png') }}"
-                                    alt="alternative" />
-                            </div>
-                        </div>
-                        <!--Slide-->
-                        <div class="swiper-slide">
-                            <div class="card">
-                                <img class="lg:h-12 card-image" src="{{ asset('assets/img_company/mayin.png') }}"
-                                    alt="alternative"/>
-                            </div>
-                        </div> <!-- end of swiper-slide -->
-                        <!-- end of slide -->
-    
-                    </div> <!-- end of swiper-wrapper -->
-    
-                </div> <!-- end of swiper-container -->
+                            <!--Slide-->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="lg:h-12 card-image" src="{{ asset('assets/img_company/mayin.png') }}"
+                                        alt="alternative"/>
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+        
+                        </div> <!-- end of swiper-wrapper -->
+        
+                    </div> <!-- end of swiper-container -->
+                </div>
+                <!-- end of card slider -->
+        
+            </div> <!-- end of container -->
             </div>
-            <!-- end of card slider -->
-    
-        </div> <!-- end of container -->
-        </div>
+    </section>
 
     <footer class="left-0 right-0 z-30 bg-orange-200">
         <div class="max-w-screen-xl p-4 py-6 mx-auto md:p-8 lg:p-10">
