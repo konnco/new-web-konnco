@@ -132,9 +132,8 @@
             </div>
             <div class="bg-white">
                 <div class="px-6 lg:px-8 lg:grid grid-cols-2 max-lg:space-y-20">
-                    <img class="w-96 h-96 right-32 max-lg:left-0 max-w-full" src="{{ asset('assets/img/designer_3.svg') }}"
-                        alt="desginer">
-                        <div class="max-w-2xl lg:py-32 lg:left-16 ">
+                    <img class="w-96 h-96 relative lg:left-48 order-1" src="{{ asset('assets/img/designer_3.svg') }}" alt="desginer">
+                        <div class="max-w-2xl lg:py-32 lg:left-16 relative">
                                 <h1 class="text-4xl font-bold tracking-tight text-orange-500 max-lg:text-6xl">Layanan Kami</h1>
                                 <p class="mt-6 text-base leading-8 text-gray-600 max-lg:text-1xl">Kami menawarkan
                                     layanan pengembangan perangkat lunak dengan kualitas tinggi. Dengan pengalaman dan pengetahuan
