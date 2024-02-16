@@ -202,9 +202,9 @@
                         </div>
             </div> --}}
     </section>
-    <div id="default-carousel" class="overflow-hidden" data-carousel="slide">
+    <div id="default-carousel" class="overflow-hidden relative h-192 max-lg:h-96 w-full" data-carousel="slide">
         <!-- Carousel wrapper -->
-        <div class="rounded-lg relative h-192 max-lg:h-96 w-full">
+        <div class="rounded-lg">
             <!-- Item 1 -->
             <div class="hidden duration-1000 ease-in-out" data-carousel-item>
                 <img src="{{ asset('assets/img/ghraa-page.svg') }}"
