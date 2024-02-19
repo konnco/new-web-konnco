@@ -231,7 +231,7 @@
                 </div>
             </div>
             <!-- Slider indicators -->
-            <div class="relative hidden z-50 space-x-3 -translate-x-1/2 left-1/2 rtl:space-x-reverse">
+            <div class="absolute max-lg:hidden bottom-[50px] z-50 space-x-3 -translate-x-1/2 left-1/2 rtl:space-x-reverse">
                 <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
                     data-carousel-slide-to="0"></button>
                 <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
