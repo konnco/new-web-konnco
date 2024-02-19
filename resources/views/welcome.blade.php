@@ -93,7 +93,7 @@
             <div class="pt-14">
                 <img class="absolute right-0 -z-50 -inset-y-20 max-w-full max-lg:hidden" src="{{ asset('assets/img/designer_1.svg') }}"
                     alt="desginer">
-                <div class="max-w-2xl py-32 mx-24 sm:py-48 lg:py-56">
+                <div class="max-w-2xl py-32 lg:mx-24 max-lg:mx-10 lg:py-56">
                     <div class="text-balance">
                         <h1 class="text-4xl font-bold tracking-tight max-lg:w-full max-lg:text-4xl text-gray-900">Introduce Your Product
                             Quickly & Effectively</h1>
@@ -120,7 +120,7 @@
                 <img class="relative inset-y-16" src="{{ asset('assets/img/designer_2.svg') }}" alt="desginer">
                 <div class="max-w-2xl lg:py-32">
                     <div class="">
-                        <h1 class="text-4xl font-bold tracking-tight text-orange-500 max-lg:text-5x">Hanya membuat yang
+                        <h1 class="text-4xl font-bold tracking-tight text-orange-500">Hanya membuat yang
                             berkualitas!</h1>
                         <p class="mt-6 text-base leading-8 text-gray-600 max-lg:text-2xl">Secara konsisten kami
                             mempelajari teknologi terbaik agar dapat terus berinovasi dan memberikan solusi terbaik untuk
