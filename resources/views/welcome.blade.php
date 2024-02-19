@@ -89,15 +89,15 @@
     </nav>
 </header>
     
-    <section id="home" class="max-lg:bg-orange-200">
+    <section id="home" class="max-lg:bg-gradient-to-r from-slate-100 via-orange-300 to-slate-400">
             <div class="pt-14">
                 <img class="absolute right-0 -z-50 -inset-y-20 max-w-full max-lg:hidden" src="{{ asset('assets/img/designer_1.svg') }}"
                     alt="desginer">
                 <div class="max-w-2xl py-32 mx-24 sm:py-48 lg:py-56">
                     <div class="text-balance">
-                        <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Introduce Your Product
+                        <h1 class="text-4xl font-bold tracking-tight max-lg:w-full max-lg:text-4xl text-gray-900">Introduce Your Product
                             Quickly & Effectively</h1>
-                        <p class="mt-6 text-lg leading-8 text-gray-600 max-lg:text-2xl">Tech doesn't have to feel like a different
+                        <p class="mt-6 text-lg leading-8 text-gray-600 max-lg:text-2xl max max-lg:w-full">Tech doesn't have to feel like a different
                             language.
                             We built Schematiq to make sure innovation works for you, your business, and your people.
                         </p>
@@ -134,8 +134,8 @@
                 <div class="px-6 lg:px-8 lg:grid grid-cols-2 max-lg:space-y-20">
                     <img class="w-96 h-96 relative lg:left-48 order-1" src="{{ asset('assets/img/designer_3.svg') }}" alt="desginer">
                         <div class="max-w-2xl lg:py-32 lg:left-16 relative">
-                                <h1 class="text-4xl font-bold tracking-tight text-orange-500 max-lg:text-6xl">Layanan Kami</h1>
-                                <p class="mt-6 text-base leading-8 text-gray-600 max-lg:text-1xl">Kami menawarkan
+                                <h1 class="text-4xl font-bold tracking-tight text-orange-500 max-lg:text-4xl max-lg:w-full">Layanan Kami</h1>
+                                <p class="mt-6 text-base leading-8 text-gray-600 max-lg:text-lg max-lg:w-full">Kami menawarkan
                                     layanan pengembangan perangkat lunak dengan kualitas tinggi. Dengan pengalaman dan pengetahuan
                                     dalam model bisnis yang umum hingga yang spesifik. Standar layanan kami meliputi </span><span
                                     class="text-base font-bold leading-relaxed text-black max-lg:text-lg">Great Design, Best User Experience,
@@ -150,13 +150,13 @@
             <div class="px-6 lg:px-20 lg:py-16 lg:grid grid-cols-2">
                 <div id="design">
                     <img class="lg:w-16 lg:h-16 w-14 h-14 left-[-1px] top-[8px]" src="{{ asset('assets/img/design-logo.svg') }}" />
-                    <h1 class="text-orange-500 font-bold lg:text-2xl"> Design</h1>
+                    <h1 class="text-orange-500 font-bold lg:text-2xl max-lg:text-xl"> Design</h1>
                     <p class="lg:text-lg leading-relaxed font-normal lg:w-72">Bekerja dengan desainer terbaik. Kami memberikan desain yang unik, minimalis, dan memiliki
                         fungsional yang baik, dengan pengguna sebagai titik awal pembuatan desain</p>
                 </div>
                 <div id="development">
                     <img class="lg:w-16 lg:h-16 w-14 h-14 left-[-1px] top-[8px]" src="{{ asset('assets/img/command-line.png') }}" />
-                    <h1 class="text-orange-500 font-bold lg:text-2xl">Development</h1>
+                    <h1 class="text-orange-500 font-bold lg:text-2xl max-lg:text-xl">Development</h1>
                     <p class="lg:text-lg leading-relaxed font-normal lg:w-72">Tidak ada tantangan yang tidak dapat dilewati oleh engineer kami. Kami berfokus pada bahasa
                         pemrograman dan framework yang mumpuni seperti React, Laravel, NodeJS, Go</p>
                 </div>
@@ -207,27 +207,27 @@
                 <!-- Item 1 -->
                 <div class="hidden duration-1000 ease-in-out" data-carousel-item>
                     <img src="{{ asset('assets/img/ghraa-page.svg') }}"
-                        class="absolute w-full -translate-x-1/2 left-1/2" alt="...">
+                        class="absolute w-full -translate-x-1/2 left-1/2  max-lg:translate-y-[75px]" alt="...">
                 </div>
                 <!-- Item 2 -->
                 <div class="hidden duration-1000 ease-in-out" data-carousel-item>
                     <img src="{{ asset('assets/img/1cerdas-page.svg') }}"
-                        class="absolute w-full -translate-x-1/2 left-1/2" alt="...">
+                        class="absolute w-full -translate-x-1/2 left-1/2 max-lg:translate-y-[75px]" alt="...">
                 </div>
                 <!-- Item 3 -->
                 <div class="hidden duration-1000 ease-in-out" data-carousel-item>
                     <img src="{{ asset('assets/img/jogbike-page.svg') }}"
-                        class="absolute w-full -translate-x-1/2 left-1/2" alt="...">
+                        class="absolute w-full -translate-x-1/2 left-1/2 max-lg:translate-y-[75px]" alt="...">
                 </div>
                 <!-- Item 4 -->
                 <div class="hidden duration-1000 ease-in-out" data-carousel-item>
                     <img src="{{ asset('assets/img/parlent-page.svg') }}"
-                        class="absolute w-full -translate-x-1/2 left-1/2" alt="...">
+                        class="absolute w-full -translate-x-1/2 left-1/2 max-lg:translate-y-[75px]" alt="...">
                 </div>
                 <!-- Item 5 -->
                 <div class="hidden duration-1000 ease-in-out" data-carousel-item>
                     <img src="{{ asset('assets/img/artomoro-page.svg') }}"
-                        class="absolute w-full -translate-x-1/2 left-1/2" alt="...">
+                        class="absolute w-full -translate-x-1/2 left-1/2 max-lg:translate-y-[75px]" alt="...">
                 </div>
             </div>
             <!-- Slider indicators -->
