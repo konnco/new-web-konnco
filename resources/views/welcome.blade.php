@@ -97,7 +97,7 @@
                     <div class="text-balance">
                         <h1 class="text-4xl font-bold tracking-tight max-lg:w-full max-lg:text-4xl text-gray-900">Introduce Your Product
                             Quickly & Effectively</h1>
-                        <p class="mt-6 text-lg leading-8 text-gray-600 max-lg:text-2xl max max-lg:w-full">Tech doesn't have to feel like a different
+                        <p class="mt-6 text-lg leading-8 text-gray-600 max-lg:text-2xl max max-lg:w-full max-lg:text-balance">Tech doesn't have to feel like a different
                             language.
                             We built Schematiq to make sure innovation works for you, your business, and your people.
                         </p>
@@ -122,7 +122,7 @@
                     <div class="">
                         <h1 class="text-4xl font-bold tracking-tight text-orange-500">Hanya membuat yang
                             berkualitas!</h1>
-                        <p class="mt-6 text-base leading-8 text-gray-600 max-lg:text-2xl">Secara konsisten kami
+                        <p class="mt-6 text-base leading-8 text-gray-600 max-lg:text-2xl max-lg:text-balance">Secara konsisten kami
                             mempelajari teknologi terbaik agar dapat terus berinovasi dan memberikan solusi terbaik untuk
                             partner bisnis kami. Kami juga membantu komunitas teknologi di sekitar kami bertumbuh dengan
                             berbagi ilmu dan pengalaman kami.
@@ -135,13 +135,13 @@
                     <img class="w-96 h-96 relative lg:left-48 order-1" src="{{ asset('assets/img/designer_3.svg') }}" alt="desginer">
                         <div class="max-w-2xl lg:py-32 lg:left-16 relative">
                                 <h1 class="text-4xl font-bold tracking-tight text-orange-500 max-lg:text-4xl max-lg:w-full">Layanan Kami</h1>
-                                <p class="mt-6 text-base leading-8 text-gray-600 max-lg:text-lg max-lg:w-full">Kami menawarkan
+                                <p class="mt-6 text-base leading-8 text-gray-600 max-lg:text-lg max-lg:w-full max-lg:text-balance">Kami menawarkan
                                     layanan pengembangan perangkat lunak dengan kualitas tinggi. Dengan pengalaman dan pengetahuan
                                     dalam model bisnis yang umum hingga yang spesifik. Standar layanan kami meliputi </span><span
-                                    class="text-base font-bold leading-relaxed text-black max-lg:text-lg">Great Design, Best User Experience,
+                                    class="text-base font-bold leading-relaxed text-black max-lg:text-lg max-lg:text-balance">Great Design, Best User Experience,
                                     Clean Code, Fast Development, Smooth Deployment </span><span
                                     style="">dan</span><span
-                                    class="text-base font-bold leading-relaxed text-black max-lg:text-lg"> Excellent
+                                    class="text-base font-bold leading-relaxed text-black max-lg:text-lg max-lg:text-balance"> Excellent
                                     Maintanance</span>
                                 </p>
                         </div>
@@ -151,13 +151,13 @@
                 <div id="design">
                     <img class="lg:w-16 lg:h-16 w-14 h-14 left-[-1px] top-[8px]" src="{{ asset('assets/img/design-logo.svg') }}" />
                     <h1 class="text-orange-500 font-bold lg:text-2xl max-lg:text-xl"> Design</h1>
-                    <p class="lg:text-lg leading-relaxed font-normal lg:w-72">Bekerja dengan desainer terbaik. Kami memberikan desain yang unik, minimalis, dan memiliki
+                    <p class="lg:text-lg leading-relaxed font-normal lg:w-72 max-lg:text-balance">Bekerja dengan desainer terbaik. Kami memberikan desain yang unik, minimalis, dan memiliki
                         fungsional yang baik, dengan pengguna sebagai titik awal pembuatan desain</p>
                 </div>
                 <div id="development">
                     <img class="lg:w-16 lg:h-16 w-14 h-14 left-[-1px] top-[8px]" src="{{ asset('assets/img/command-line.png') }}" />
                     <h1 class="text-orange-500 font-bold lg:text-2xl max-lg:text-xl">Development</h1>
-                    <p class="lg:text-lg leading-relaxed font-normal lg:w-72">Tidak ada tantangan yang tidak dapat dilewati oleh engineer kami. Kami berfokus pada bahasa
+                    <p class="lg:text-lg leading-relaxed font-normal lg:w-72 max-lg:text-balance">Tidak ada tantangan yang tidak dapat dilewati oleh engineer kami. Kami berfokus pada bahasa
                         pemrograman dan framework yang mumpuni seperti React, Laravel, NodeJS, Go</p>
                 </div>
             </div>
