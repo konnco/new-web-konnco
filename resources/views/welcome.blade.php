@@ -95,13 +95,13 @@
                     alt="desginer">
                 <div class="max-w-2xl py-32 lg:mx-24 max-lg:mx-10 lg:py-56">
                     <div class="text-balance">
-                        <h1 class="text-4xl font-bold tracking-tight max-lg:w-full max-lg:text-4xl text-gray-900">Introduce Your Product
+                        <h1 class="text-4xl font-bold tracking-tight max-lg:w-full max-lg:text-4xl text-gray-900 max-lg:text-center">Introduce Your Product
                             Quickly & Effectively</h1>
-                        <p class="mt-6 text-lg leading-8 text-gray-600 max-lg:text-2xl max max-lg:w-full max-lg:text-balance">Tech doesn't have to feel like a different
+                        <p class="mt-6 text-lg leading-8 text-gray-600 max-lg:text-2xl max max-lg:w-full max-lg:text-center">Tech doesn't have to feel like a different
                             language.
                             We built Schematiq to make sure innovation works for you, your business, and your people.
                         </p>
-                        <div class="flex items-center mt-10 -mx-1 justify-left gap-x-8">
+                        <div class="flex items-center mt-10 -mx-1 justify-left gap-x-8 max-lg:justify-center">
                             <a
                                 href="#"class="rounded-full bg-orange-500 px-3.5 py-2 text-sm font-semibold text-white shadow-sm transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-black duration-300">Purchase
                                 Service</a>
@@ -117,10 +117,10 @@
     <section id="about" class="">
         <div class="bg-transparent">
             <div class="px-6 lg:px-8 lg:grid grid-cols-2 max-lg:space-y-20">
-                <img class="relative inset-y-16" src="{{ asset('assets/img/designer_2.svg') }}" alt="desginer">
+                <img class="relative inset-y-16 max-lg:h-72" src="{{ asset('assets/img/designer_2.svg') }}" alt="desginer">
                 <div class="max-w-2xl lg:py-32">
                     <div class="">
-                        <h1 class="text-4xl font-bold tracking-tight text-orange-500">Hanya membuat yang
+                        <h1 class="text-4xl font-bold tracking-tight text-orange-500 max-lg:text-balance">Hanya membuat yang
                             berkualitas!</h1>
                         <p class="mt-6 text-base leading-8 text-gray-600 max-lg:text-2xl max-lg:text-balance">Secara konsisten kami
                             mempelajari teknologi terbaik agar dapat terus berinovasi dan memberikan solusi terbaik untuk
@@ -134,14 +134,14 @@
                 <div class="px-6 lg:px-8 lg:grid grid-cols-2 max-lg:space-y-20">
                     <img class="w-96 h-96 relative lg:left-48 order-1" src="{{ asset('assets/img/designer_3.svg') }}" alt="desginer">
                         <div class="max-w-2xl lg:py-32 lg:left-16 relative">
-                                <h1 class="text-4xl font-bold tracking-tight text-orange-500 max-lg:text-4xl max-lg:w-full">Layanan Kami</h1>
+                                <h1 class="text-4xl font-bold tracking-tight text-orange-500 max-lg:text-4xl max-lg:w-full max-lg:text-balance">Layanan Kami</h1>
                                 <p class="mt-6 text-base leading-8 text-gray-600 max-lg:text-lg max-lg:w-full max-lg:text-balance">Kami menawarkan
                                     layanan pengembangan perangkat lunak dengan kualitas tinggi. Dengan pengalaman dan pengetahuan
                                     dalam model bisnis yang umum hingga yang spesifik. Standar layanan kami meliputi </span><span
-                                    class="text-base font-bold leading-relaxed text-black max-lg:text-lg max-lg:text-balance">Great Design, Best User Experience,
+                                    class="text-base font-bold leading-relaxed text-black max-lg:text-lg">Great Design, Best User Experience,
                                     Clean Code, Fast Development, Smooth Deployment </span><span
                                     style="">dan</span><span
-                                    class="text-base font-bold leading-relaxed text-black max-lg:text-lg max-lg:text-balance"> Excellent
+                                    class="text-base font-bold leading-relaxed text-black max-lg:text-lg"> Excellent
                                     Maintanance</span>
                                 </p>
                         </div>
@@ -370,8 +370,8 @@
                 <div class="flex items-center col-span-3 gap-8">
                     <img class="object-fit max-lg:hidden" src="{{ asset('assets/img/logokonnco.png') }}" />
                     <div>
-                        <h3 class="mb-4 text-xl font-semibold text-gray-900 uppercase lg:text-2xl">Konnco Studio</h3>
-                        <p class="font-light text-gray-900 sm:text-md">
+                        <h3 class="mb-4 text-xl font-semibold text-gray-900 uppercase lg:text-2xl max-lg:grid justify-items-center">Konnco Studio</h3>
+                        <p class="font-light text-gray-900 sm:text-md max-lg:text-center">
                             Jl. Cepakasari No. 695, RT.42/RW.11, Jogokaryan, Mantrijeron, Kec. Mantrijeron, Kota
                             Yogyakarta, Daerah Istimewa Yogyakarta
                         </p>
