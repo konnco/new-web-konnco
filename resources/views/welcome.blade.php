@@ -444,12 +444,12 @@
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev'
                 },
-                slidesPerView: 5,
-                spaceBetween: 50,
+                slidesPerView: 3,
+                spaceBetween: 30,
                 breakpoints: {
                     // when window is <= 767px
                     767: {
-                        slidesPerView: 5
+                        slidesPerView: 4
                     },
                     // when window is <= 1023px
                     1023: {
